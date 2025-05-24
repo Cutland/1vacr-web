@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* React Big Calendar Dark Mode Overrides */
+.dark .rbc-calendar {
+  background-color: #1f2937;    /* Tailwind gray-800 */
+  color: #f3f4f6;              /* Tailwind gray-100 */
+}
+.dark .rbc-toolbar button {
+  background-color: #374151;   /* Tailwind gray-700 */
+  color: #f3f4f6;              /* Tailwind gray-100 */
+}
+.dark .rbc-toolbar-label,
+.dark .rbc-header {
+  color: #f3f4f6;              /* Tailwind gray-100 */
+}
+.dark .rbc-day-bg {
+  border-color: #374151;       /* Tailwind gray-700 */
+}
+.dark .rbc-month-row .rbc-header,
+.dark .rbc-day-bg + .rbc-row-content {
+  border-color: #374151;       /* Tailwind gray-700 */
+}
+/* Make “off-range” days dark in month view */
+.dark .rbc-off-range-bg {
+  background-color: #1f2937 !important;  /* Enforce gray-800 */
+}

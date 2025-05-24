@@ -1,0 +1,33 @@
+{
+  "name": "1vacr-website",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "framer-motion": "^7.6.11",
+    "moment": "^2.30.1",
+    "react": "^18.0.0",
+    "react-big-calendar": "^1.18.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.10.1",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postinstall": "tailwindcss init -p"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
